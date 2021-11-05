@@ -35,8 +35,8 @@ console.log(McLarenF1Team.hasOwnProperty('isParticipant'));
 console.log(McLarenF1Team.valueOf(McLarenF1Team.toString));
 
 
-const WilliamsF1Team = Object.assign(McLarenF1Team);
-console.log(WilliamsF1Team);
+const WilliamsTeam = Object.assign(McLarenF1Team);
+console.log(WilliamsTeam);
 
 const WilliamsF1Team = Object.create(McLarenF1Team);
 WilliamsF1Team.fromCountry = 'UK';
