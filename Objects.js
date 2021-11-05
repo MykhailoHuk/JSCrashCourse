@@ -14,7 +14,6 @@ console.log(f1);
 console.log(newF1Team);
 console.log(McLarenF1Team);
 
-// =======================================================================
 
 McLarenF1Team.lastWin = 2021;
 McLarenF1Team['fullName'] =() => console.log('McLAREN FORMULA 1 TEAM');
